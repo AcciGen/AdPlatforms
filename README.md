@@ -4,18 +4,22 @@
 
 ## Запуск
 
-1. Сначала открываем терминал (PowerShell, CMD или любой другой), клонируем проект и заходим нужную папку для запуска:
+1. Сначала открываем терминал (PowerShell, CMD или любой другой) и клонируем проект:
    ```bash
    git clone https://github.com/AcciGen/AdPlatforms.git
+   ```
+
+2. Заходим в нужную папку для запуска:
+   ```bash
    cd AdPlatforms\src\AdPlatforms.API
    ```
 
-2. Запускаем проект:
+3. Запускаем проект:
    ```bash
    dotnet run
    ```
 
-3. Открываем в браузере Swagger UI для тестирования:
+4. Открываем в браузере Swagger UI для тестирования:
    ```
    http://localhost:5133/swagger
    ```

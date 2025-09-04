@@ -26,7 +26,6 @@ public class Program
         }
 
         app.UseHttpsRedirection();
-        app.UseStaticFiles();
         app.UseAuthorization();
         app.MapControllers();
         app.Run();
